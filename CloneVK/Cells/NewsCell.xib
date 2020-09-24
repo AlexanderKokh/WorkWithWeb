@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsCell" id="ffj-ND-B7R" customClass="NewsCell" customModule="cloneVK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="302"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ffj-ND-B7R" id="psv-JU-s54" customClass="NewsCell" customModule="cloneVK" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="302"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="251" image="IOS developers" translatesAutoresizingMaskIntoConstraints="NO" id="mCL-yd-Icq">
+                        <rect key="frame" x="10" y="10" width="100" height="100"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NewsObject" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrq-6q-sje">
+                        <rect key="frame" x="120" y="10" width="304" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NewsTime" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lD5-qw-7gh">
+                        <rect key="frame" x="120" y="40.5" width="304" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                        <color key="textColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NewsDescription" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZl-G7-qVG">
+                        <rect key="frame" x="10" y="120" width="414" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="batman" translatesAutoresizingMaskIntoConstraints="NO" id="Hzj-Kb-Gia">
+                        <rect key="frame" x="0.0" y="150.5" width="434" height="111.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FC3-2T-uxq">
+                        <rect key="frame" x="10" y="273.5" width="20.5" height="17.5"/>
+                        <color key="tintColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Like" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uP-Vp-Ha9">
+                        <rect key="frame" x="40.5" y="274" width="24.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble.left" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8Y6-H1-dOU">
+                        <rect key="frame" x="75" y="272.5" width="22.5" height="19.5"/>
+                        <color key="tintColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFS-EI-JXY">
+                        <rect key="frame" x="107.5" y="274" width="54.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowshape.turn.up.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qYA-Vp-tZ3">
+                        <rect key="frame" x="172" y="273" width="21" height="17.5"/>
+                        <color key="tintColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="twit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghy-gL-rOc">
+                        <rect key="frame" x="203" y="274" width="22.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eye" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="z1Q-ye-NQS">
+                        <rect key="frame" x="235.5" y="273.5" width="26" height="16.5"/>
+                        <color key="tintColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="LabelViews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhE-rK-vOe">
+                        <rect key="frame" x="271.5" y="274" width="152.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ghy-gL-rOc" firstAttribute="leading" secondItem="qYA-Vp-tZ3" secondAttribute="trailing" constant="10" id="5zc-cO-a5y"/>
+                    <constraint firstItem="mCL-yd-Icq" firstAttribute="leading" secondItem="psv-JU-s54" secondAttribute="leading" constant="10" id="8Yk-yk-uS6"/>
+                    <constraint firstItem="Hzj-Kb-Gia" firstAttribute="leading" secondItem="psv-JU-s54" secondAttribute="leading" id="BJN-it-brG"/>
+                    <constraint firstItem="mCL-yd-Icq" firstAttribute="top" secondItem="psv-JU-s54" secondAttribute="top" constant="10" id="Dfg-eT-QvO"/>
+                    <constraint firstItem="QZl-G7-qVG" firstAttribute="top" secondItem="mCL-yd-Icq" secondAttribute="bottom" constant="10" id="EXN-ov-R6L"/>
+                    <constraint firstAttribute="trailing" secondItem="hrq-6q-sje" secondAttribute="trailing" constant="10" id="GzA-zb-qcM"/>
+                    <constraint firstItem="QZl-G7-qVG" firstAttribute="leading" secondItem="psv-JU-s54" secondAttribute="leading" constant="10" id="H9c-6l-F61"/>
+                    <constraint firstAttribute="trailing" secondItem="lD5-qw-7gh" secondAttribute="trailing" constant="10" id="HXe-sP-HiF"/>
+                    <constraint firstItem="dhE-rK-vOe" firstAttribute="leading" secondItem="z1Q-ye-NQS" secondAttribute="trailing" constant="10" id="IJc-BW-VLq"/>
+                    <constraint firstAttribute="bottom" secondItem="FC3-2T-uxq" secondAttribute="bottom" constant="10" id="IRl-Ma-cfQ"/>
+                    <constraint firstAttribute="trailing" secondItem="dhE-rK-vOe" secondAttribute="trailing" constant="10" id="Ny9-4f-FfD"/>
+                    <constraint firstItem="Hzj-Kb-Gia" firstAttribute="top" secondItem="QZl-G7-qVG" secondAttribute="bottom" constant="10" id="Ocq-vr-BuF"/>
+                    <constraint firstItem="hrq-6q-sje" firstAttribute="top" secondItem="psv-JU-s54" secondAttribute="top" constant="10" id="TN0-fT-4dm"/>
+                    <constraint firstItem="qYA-Vp-tZ3" firstAttribute="centerY" secondItem="cFS-EI-JXY" secondAttribute="centerY" id="TeG-ih-F7S"/>
+                    <constraint firstItem="lD5-qw-7gh" firstAttribute="top" secondItem="hrq-6q-sje" secondAttribute="bottom" constant="10" id="UJW-T4-7Lx"/>
+                    <constraint firstItem="z1Q-ye-NQS" firstAttribute="leading" secondItem="ghy-gL-rOc" secondAttribute="trailing" constant="10" id="ViG-pQ-j4o"/>
+                    <constraint firstItem="FC3-2T-uxq" firstAttribute="leading" secondItem="psv-JU-s54" secondAttribute="leading" constant="10" id="WOC-fb-Sdu"/>
+                    <constraint firstItem="ghy-gL-rOc" firstAttribute="centerY" secondItem="qYA-Vp-tZ3" secondAttribute="centerY" id="ZLo-ir-zx4"/>
+                    <constraint firstItem="z1Q-ye-NQS" firstAttribute="centerY" secondItem="ghy-gL-rOc" secondAttribute="centerY" id="eyv-aX-ehW"/>
+                    <constraint firstItem="lD5-qw-7gh" firstAttribute="leading" secondItem="mCL-yd-Icq" secondAttribute="trailing" constant="10" id="iSC-ls-RgV"/>
+                    <constraint firstItem="hrq-6q-sje" firstAttribute="leading" secondItem="mCL-yd-Icq" secondAttribute="trailing" constant="10" id="inr-Zm-bN2"/>
+                    <constraint firstItem="8Y6-H1-dOU" firstAttribute="centerY" secondItem="4uP-Vp-Ha9" secondAttribute="centerY" id="mql-Oq-D2j"/>
+                    <constraint firstAttribute="trailing" secondItem="QZl-G7-qVG" secondAttribute="trailing" constant="10" id="p3S-rm-bme"/>
+                    <constraint firstItem="qYA-Vp-tZ3" firstAttribute="leading" secondItem="cFS-EI-JXY" secondAttribute="trailing" constant="10" id="pFo-qx-uGd"/>
+                    <constraint firstItem="8Y6-H1-dOU" firstAttribute="leading" secondItem="4uP-Vp-Ha9" secondAttribute="trailing" constant="10" id="pdu-sp-CYU"/>
+                    <constraint firstItem="cFS-EI-JXY" firstAttribute="leading" secondItem="8Y6-H1-dOU" secondAttribute="trailing" constant="10" id="pmf-h4-iKX"/>
+                    <constraint firstItem="4uP-Vp-Ha9" firstAttribute="centerY" secondItem="FC3-2T-uxq" secondAttribute="centerY" id="qC2-En-w88"/>
+                    <constraint firstItem="4uP-Vp-Ha9" firstAttribute="leading" secondItem="FC3-2T-uxq" secondAttribute="trailing" constant="10" id="rAx-HP-4S7"/>
+                    <constraint firstItem="FC3-2T-uxq" firstAttribute="top" secondItem="Hzj-Kb-Gia" secondAttribute="bottom" constant="10" id="twi-Xd-8Zi"/>
+                    <constraint firstItem="dhE-rK-vOe" firstAttribute="centerY" secondItem="z1Q-ye-NQS" secondAttribute="centerY" id="vOI-eQ-H2W"/>
+                    <constraint firstItem="cFS-EI-JXY" firstAttribute="centerY" secondItem="8Y6-H1-dOU" secondAttribute="centerY" id="wST-Bg-CGq"/>
+                    <constraint firstAttribute="trailing" secondItem="Hzj-Kb-Gia" secondAttribute="trailing" id="yEv-uy-u7v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="labelCountComments" destination="cFS-EI-JXY" id="mKf-WJ-r0n"/>
+                <outlet property="labelCountLike" destination="4uP-Vp-Ha9" id="CgF-zG-2gU"/>
+                <outlet property="labelCountTwits" destination="ghy-gL-rOc" id="Roj-0J-0S2"/>
+                <outlet property="labelCountViews" destination="dhE-rK-vOe" id="5O2-ZJ-Ylc"/>
+                <outlet property="labelDescriptionNews" destination="QZl-G7-qVG" id="RPF-SC-oaz"/>
+                <outlet property="labelIconNews" destination="mCL-yd-Icq" id="W53-HQ-qNT"/>
+                <outlet property="labelMainPhotoNews" destination="Hzj-Kb-Gia" id="Wz7-2j-lRz"/>
+                <outlet property="labelNameNews" destination="hrq-6q-sje" id="Pl0-d5-Nm3"/>
+                <outlet property="labelTimeAdd" destination="lD5-qw-7gh" id="XFK-Xc-HJK"/>
+            </connections>
+            <point key="canvasLocation" x="110.14492753623189" y="-179.46428571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="IOS developers" width="100" height="100"/>
+        <image name="arrowshape.turn.up.right" catalog="system" width="128" height="106"/>
+        <image name="batman" width="100" height="100"/>
+        <image name="bubble.left" catalog="system" width="128" height="110"/>
+        <image name="eye" catalog="system" width="128" height="81"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+    </resources>
+</document>
