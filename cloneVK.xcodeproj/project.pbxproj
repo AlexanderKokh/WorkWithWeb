@@ -16,6 +16,7 @@
 		FC14DB6E24AF93F700C547C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC14DB6C24AF93F700C547C9 /* Main.storyboard */; };
 		FC14DB7024AF93F900C547C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC14DB6F24AF93F900C547C9 /* Assets.xcassets */; };
 		FC14DB7324AF93F900C547C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC14DB7124AF93F900C547C9 /* LaunchScreen.storyboard */; };
+		FC55D0D7251D1CE000BE2759 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC55D0D6251D1CE000BE2759 /* Session.swift */; };
 		FC5A2DA224BA66AC002391F2 /* FriendCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A2DA124BA66AC002391F2 /* FriendCollectionViewController.swift */; };
 		FC5A2DA424BA6A96002391F2 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A2DA324BA6A96002391F2 /* FriendCell.swift */; };
 		FC70B08F24CF2F1B00205BCB /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70B08E24CF2F1B00205BCB /* NewsCell.xib */; };
@@ -40,6 +41,7 @@
 		FC14DB6F24AF93F900C547C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC14DB7224AF93F900C547C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC14DB7424AF93F900C547C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC55D0D6251D1CE000BE2759 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Session.swift; path = CloneVK/Session/Session.swift; sourceTree = SOURCE_ROOT; };
 		FC5A2DA124BA66AC002391F2 /* FriendCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendCollectionViewController.swift; path = cloneVK/Model/FriendCollectionViewController.swift; sourceTree = SOURCE_ROOT; };
 		FC5A2DA324BA6A96002391F2 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendCell.swift; path = cloneVK/Cells/FriendCell.swift; sourceTree = SOURCE_ROOT; };
 		FC70B08E24CF2F1B00205BCB /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		FC14DB6524AF93F700C547C9 /* cloneVK */ = {
 			isa = PBXGroup;
 			children = (
+				FC55D0D5251D1C8B00BE2759 /* Session */,
 				FC14DB6C24AF93F700C547C9 /* Main.storyboard */,
 				FC14DB6624AF93F700C547C9 /* AppDelegate.swift */,
 				FC14DB6824AF93F700C547C9 /* SceneDelegate.swift */,
@@ -106,6 +109,14 @@
 				FC14DB7424AF93F900C547C9 /* Info.plist */,
 			);
 			path = cloneVK;
+			sourceTree = "<group>";
+		};
+		FC55D0D5251D1C8B00BE2759 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				FC55D0D6251D1CE000BE2759 /* Session.swift */,
+			);
+			path = Session;
 			sourceTree = "<group>";
 		};
 		FC9CA69624CDEC3100A7B2F7 /* Controls */ = {
@@ -214,6 +225,7 @@
 				FCEBAA8124BCC2CA00250602 /* AllGroupCell.swift in Sources */,
 				FC01559024B9F539004C7401 /* Groups.swift in Sources */,
 				FC70B09124CF2FFC00205BCB /* NewsCell.swift in Sources */,
+				FC55D0D7251D1CE000BE2759 /* Session.swift in Sources */,
 				FCB79BCF24C9D3D40088E6E1 /* FriendsViewControler.swift in Sources */,
 				FCF88DDE24C618470057817C /* LikeControl.swift in Sources */,
 				FC14DB6924AF93F700C547C9 /* SceneDelegate.swift in Sources */,
