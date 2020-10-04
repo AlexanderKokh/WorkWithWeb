@@ -9,9 +9,11 @@
 import UIKit
 
 class Session {
+   
+    var token: String = ""
+    var userId: Int = 0
     static let instance = Session()
     
     private init() {}
-    var token: String = ""
-    var userId: Int = 0
+   
 }
