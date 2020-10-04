@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     }
     
     @objc func keyboardWillShown(notification: Notification) {
+        
         let info  = notification.userInfo! as NSDictionary
         let kbSize = (info.value(forKey: UIResponder.keyboardFrameEndUserInfoKey) as! NSValue).cgRectValue.size
        
